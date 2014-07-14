@@ -6,7 +6,7 @@ $user_name = elgg_get_logged_in_user_guid();
 $comet_url = $vars['url']."live_notifications/pull";
  ?>
 NovComet = {
-    sleepTime: 1000,
+    sleepTime: 6000,
     _subscribed: {},
     _timeout: undefined,
     _baseurl: "<?php echo $comet_url ?>",
